@@ -52,7 +52,7 @@ class GaussianModel:
         self.optimizer_type = optimizer_type
         self.max_sh_degree = sh_degree  
         self._xyz = torch.empty(0)
-        self._xyz_damp = torch.empty(0)
+        
         self._features_dc = torch.empty(0)
         self._features_rest = torch.empty(0)
         self._scaling = torch.empty(0)
